@@ -1,9 +1,11 @@
+#!/usr/bin/env node
+
 import chalk from 'chalk';
 import commander from 'commander';
 import main from './main';
 
 commander
-  .version('0.0.0')
+  .version('0.0.1')
   .usage('<globs ...>')
   .parse(process.argv);
 
