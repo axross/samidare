@@ -1,0 +1,36 @@
+{
+  "name": "samidare",
+  "version": "0.0.1",
+  "description": "CLI API test runner",
+  "main": "./distributions/main.js",
+  "bin": {
+    "samidare": "./distributions/cli.js"
+  },
+  "scripts": {
+    "babel": "babel ./sources --out-dir ./distributions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axross/samidare.git"
+  },
+  "author": "axross <kou@axross.org> (http://axross.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axross/samidare/issues"
+  },
+  "homepage": "https://github.com/axross/samidare#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "duplexer": "^0.1.1",
+    "figures": "^1.4.0",
+    "glob": "^6.0.1",
+    "superagent": "^1.4.0",
+    "tap-difflet": "^0.4.0",
+    "tap-parser": "^1.2.2",
+    "tape": "^4.2.2",
+    "through2": "^2.0.0"
+  }
+}

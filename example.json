@@ -1,0 +1,26 @@
+{
+  "name": "GET /user",
+  "default": {
+    "method": "GET",
+    "url": "/user",
+    "queries": null,
+    "headers": null,
+    "body": null
+  },
+  "cases": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/user",
+        "queries": null,
+        "headers": null,
+        "body": null
+      },
+      "response": {
+        "status": 200,
+        "headers": null,
+        "body": null
+      }
+    }
+  ]
+}
