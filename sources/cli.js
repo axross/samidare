@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import _ from 'babel/polyfill';
 import chalk from 'chalk';
 import commander from 'commander';
 import main from './main';
