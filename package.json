@@ -8,7 +8,8 @@
   },
   "scripts": {
     "babel": "babel ./sources --out-dir ./distributions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "babel ./sources --out-dir ./distributions"
   },
   "repository": {
     "type": "git",
